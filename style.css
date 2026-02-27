@@ -61,6 +61,92 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
+/*-----header styles-----*/
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: var(--soft-white);
+    color: var(--dark-charcoal);
+    
+}
+header img.logo {
+    width: 10em;
+    height: auto;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+header{
+    text-align: center;
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    padding-top: 20px;
+}
+h1 {
+    font-size: 3em;
+}
+header p {
+    font-size: 1em;
+    font-style: italic;
+    padding: 10px 0;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 15px 0;
+    background-color: var(--champagne-gold);
+    font-size: 1.5em;
+}
+nav a {
+    color: var(--midnight-blue);
+    text-decoration: none;
+}
+/*-----main styles-----*/
+main{
+    padding: 20px 20px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+h2 {
+    font-size: 2em;
+    color: var(--midnight-blue);
+    margin-bottom: 10px;
+}
+h2 p{
+    font-size: 1.2em;
+    color: var(--dark-charcoal);
+    
+}
+#about { 
+    padding: 20px 0;
+    border-bottom: var(--champagne-gold) 1px solid;
+}
+#offerings {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: var(--champagne-gold) 1px solid;
+}
+#offerings section {
+    background-color: var(--olive-green);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--soft-white);
+    
+}
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+#offerings ul{
+    list-style: disc; 
+    list-style-position: inside;
+    padding-bottom: 10px;
+}
+
+    
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
