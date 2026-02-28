@@ -167,6 +167,12 @@ h3 {
     height: auto;
 
 }
+#gallery div.figure-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width:100%;
+}
 #gallery figure img{
   width: 100%;
   height: auto;
@@ -226,5 +232,74 @@ footer div{
 
 
 /* MEDIA QUERY (medium) */
+@media screen and (min-width: 600px) {
+    #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "h2 h2"
+            "a b"
+            "c c";
+        gap: 20px;
+    }
+
+    #offerings h2 {
+        grid-area: h2;
+    }
+
+    #offerings section:nth-of-type(1) {
+        grid-area: a;
+    }
+
+    #offerings section:nth-of-type(2) {
+        grid-area: b;
+    }
+
+    #offerings section:nth-of-type(3) {
+        grid-area: c;
+    }
+    
+
+}
+
+@media screen and (min-width: 600px) {
+    #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "h2 h2"
+            "a b"
+            "c c";
+        gap: 20px;
+    }
+
+    #offerings h2 {
+        grid-area: h2;
+    }
+
+    #offerings section:nth-of-type(1) {
+        grid-area: a;
+    }
+
+    #offerings section:nth-of-type(2) {
+        grid-area: b;
+    }
+
+    #offerings section:nth-of-type(3) {
+        grid-area: c;
+    }
+    
+
+
+
+    #gallery div.figure-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        gap: 20px;
+    }
+}
+
 /* MEDIA QUERY (large) */
+
 /* MEDIA QUERY (xl) */
