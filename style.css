@@ -289,9 +289,6 @@ footer div{
         grid-area: c;
     }
     
-
-
-
     #gallery div.figure-grid{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -310,3 +307,10 @@ footer div{
 }
 
 /* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px) {
+   #gallery div.figure-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;  
+        gap: 20px;
+    }
+}
