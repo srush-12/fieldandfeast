@@ -189,8 +189,42 @@ h3 {
     font-size: 1em;
 }
 
+/*-----footer styles-----*/
 
-    
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    padding: 20px 0;
+}
+footer address, footer p {
+    font-size: 0.9em;
+    color: var(--soft-white);
+    text-decoration: none;
+    margin: 5px 0;
+}
+footer a{
+    font-size: 0.9em;
+    color: var(--champagne-gold);
+    text-decoration: none;
+    margin: 5px 0;
+}
+footer p a {
+    font-size: 0.9em;
+    color: var(--champagne-gold);
+    margin: 5px 0;
+}
+
+footer div{
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+
+
 /* MEDIA QUERY (medium) */
 /* MEDIA QUERY (large) */
 /* MEDIA QUERY (xl) */
